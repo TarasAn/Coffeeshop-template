@@ -1,0 +1,9 @@
+.DS_Store
+node_modules
+npm-debug.log
+bower_components
+dist
+*.swp
+src/assets/img/*.jpg
+src/assets/img/featured/*.jpg
+src/assets/img/gallery/*.jpg

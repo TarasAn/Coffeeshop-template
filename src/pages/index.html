@@ -1,0 +1,82 @@
+---
+title: homepage
+slogan: Enjoy a delicious Cup of coffee
+---
+
+<div class="container">
+    <main class="main-content page-{{title}}">
+        <div class="about-us-homepage">
+            <h2 class="heading-title">learn more<span>about us</span></h2>
+
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab asperiores consectetur deserunt dignissimos, doloremque earum enim excepturi impedit iste laboriosam modi necessitatibus, nobis odio officiis omnis pariatur perferendis placeat quisquam, recusandae repudiandae ullam veniam vitae voluptatem? Ex odit sed ut!
+            </p>
+
+            <div class="categoty-icons">
+                <div class="icon coffee">
+                    <h3>Coffee</h3>
+                </div> <!-- end .icon -->
+                <div class="icon dessert">
+                    <h3>Desserts</h3>
+                </div> <!-- end .icon -->
+                <div class="icon tea">
+                    <h3>Tea</h3>
+                </div> <!-- end .icon -->
+            </div> <!-- end .categoty-icons -->
+
+        </div> <!-- end .about-us-homepage -->
+    </main>
+</div>
+
+<div class="container">
+    <main class="main-content page-{{title}}">
+        {{> our_gallery}}
+    </main>
+</div>
+
+{{> our_menu}}
+
+<div class="container testimonials">
+
+    <h2 class="heading-title">what our clients say<span>testimonials</span></h2>
+
+    <div class="slide-container">
+
+        <div class="orbit" role="region" aria-label="Our Testimonials" data-orbit>
+            <div class="orbit-wrapper">
+                <div class="orbit-controls">
+                    <button class="orbit-previous"><span class="show-for-sr">Previous slide</span>&#9664;&#xFE0E;</button>
+                    <button class="orbit-next"><span class="show-for-sr">Next slide</span>&#9654;&#xFE0E;</button>
+                </div> <!-- end .orbit-controls -->
+                <ul class="orbit-controls">
+                    <li class="orbit-slide is-active">
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur deleniti dignissimos illo ipsum labore molestiae mollitia perferendis, sed sequi! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            </p>
+                            <h3>- Jesica Doe (web designer)</h3>
+                        </div>
+                    </li> <!-- end .orbit-slide -->
+                    <li class="orbit-slide">
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur deleniti dignissimos illo ipsum labore molestiae mollitia perferendis, sed sequi! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab itaque, molestias. Aut laboriosam minus repellat?
+                            </p>
+                            <h3>- Robert Doe (middle web developer)</h3>
+                        </div>
+                    </li> <!-- end .orbit-slide -->
+                    <li class="orbit-slide">
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab consectetur deleniti dignissimos illo ipsum labore molestiae mollitia perferendis, sed sequi!
+                            </p>
+                            <h3>- John Doe (senjor developer)</h3>
+                        </div>
+                    </li> <!-- end .orbit-slide -->
+                </ul> <!-- end .orbit-controls -->
+            </div> <!-- end .orbit-wrapper -->
+        </div> <!-- end .orbit -->
+
+    </div> <!-- end .slide-container -->
+
+</div> <!-- end .testimonials -->
